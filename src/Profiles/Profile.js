@@ -29,15 +29,13 @@ const Profile = (props)=> {
       </div>
     );
   };
-  // default props
-  Profile.defaultProps = {
-    fullName: 'user',
+
+  // default props children
+Profile.defaultProps={
+  fullName: 'user',
     profession: 'Programmer',
     bio: 'I am a programmer',
     handleName: () => {},
-  };
-  // default props children
-Profile.defaultProps={
   children: <img src={userPhoto} className="rounded" width="155" alt="" />
 
 }
